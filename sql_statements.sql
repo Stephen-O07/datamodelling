@@ -12,3 +12,6 @@ CREATE TABLE Sales.Customers
   phone        NVARCHAR(24) NOT NULL,
   fax          NVARCHAR(24) NULL,
 );
+
+ALTER TABLE
+    "sales.Customers" ADD PRIMARY KEY("custid");
